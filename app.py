@@ -27,13 +27,13 @@ def no_query_strings(name='Linda'):
 def films():
     films_dict = {
         'Black Panther': 2.5,
-        'Avengers: End Game': 2.5,
+        'Avengers: End Game': 3.2,
         'Avengers: Infinity War': 3.2,
-        'Doctor Strange': 2.14,
-        'Captain Marvel': 1.48,
-        'Guardians of the Galaxy': 2.52,
-        'Guardians of the Galaxy 2': 3.5,
-        'Captain America, Civil War': 1.5
+        'Doctor Strange': 2.0,
+        'Captain Marvel': 2.5,
+        'Guardians of the Galaxy': 2.0,
+        'Guardians of the Galaxy 2': 2.5,
+        'Captain America, Civil War': 2.5
     }
     return render_template('table_movies.html', films=films_dict, name='Marvel fans')
 
